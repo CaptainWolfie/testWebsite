@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap');
+
+* {
+    font-weight: normal;
+    margin: 0px;
+}
+
+.welcome {
+    margin-top: 400px;
+    font-size: 40px;
+}
+
+body {
+    font-family: 'Calistoga', cursive;
+    color: ghostwhite;
+    list-style: none;
+    background-image: url("background.png");
+}
+
+hr {
+    border-style: none;
+    border-top: 1px dashed #ccc;
+}
+
+footer {
+    margin: 20px 10px 0px 10px;
+    background-color: rgb(20,20,30);
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: azure;
+    border-style: groove;
+    color: whitesmoke;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.bottom {
+    margin: 30px 20px;
+    overflow: hidden;
+}
+
+a {
+    color: whitesmoke;
+}
+
+.informationElement {
+    font-family: 'Ibarra Real Nova', serif;
+    float: left;
+    margin-right: 30px;
+}
+.copyright {
+    color: rgb(200,200,200);
+    position: fixed;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    bottom: 8px;
+    right: 20px;
+}
