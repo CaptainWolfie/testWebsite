@@ -35,8 +35,9 @@ footer {
 }
 
 .bottom {
-    margin: 30px 20px;
+    padding: 30px 20px;
     overflow: hidden;
+    position: relative;
 }
 
 a {
@@ -50,7 +51,7 @@ a {
 }
 .copyright {
     color: rgb(200,200,200);
-    position: fixed;
+    position: absolute;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     bottom: 8px;
     right: 20px;
