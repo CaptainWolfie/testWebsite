@@ -6,10 +6,38 @@
         <link rel="stylesheet" type="text/css" href="index.css">
     </head>
     
+    <header>
+        <div class="topLeft">
+        </div>
+    </header>
+    
     <body>
         <section>
             <h1 class="welcome" align="middle">Student, Gamedev, Programmer</h1>
         </section>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+             https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+
+        <script>
+          // Your web app's Firebase configuration
+          var firebaseConfig = {
+            apiKey: "AIzaSyAfmpo68gepVQeOOXdnQWNUxXjI4VCsrug",
+            authDomain: "testwebsite-e3f87.firebaseapp.com",
+            databaseURL: "https://testwebsite-e3f87.firebaseio.com",
+            projectId: "testwebsite-e3f87",
+            storageBucket: "testwebsite-e3f87.appspot.com",
+            messagingSenderId: "214485396527",
+            appId: "1:214485396527:web:3384cd708e352ccae66ada",
+            measurementId: "G-CMZ9N9VXWJ"
+          };
+          // Initialize Firebase
+          firebase.initializeApp(firebaseConfig);
+          firebase.analytics();
+        </script>
     </body>
     <hr style="margin: 50px 0px;"/>
     <footer>

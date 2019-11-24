@@ -56,3 +56,8 @@ a {
     bottom: 8px;
     right: 20px;
 }
+
+header {
+    font-weight: normal;
+    background-color: rgb(80,80,60);
+}
